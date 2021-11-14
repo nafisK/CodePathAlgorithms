@@ -1,0 +1,100 @@
+Arrays:
+
+String[] cars;
+int[] myIntArray = new int[3];
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+int[] myNum = {10, 20, 30, 40};
+System.out.println(cars.length);
+for (String i : cars) {
+  System.out.println(i);
+}
+int[][] myNumbers = { {1, 2, 3, 4}, {5, 6, 7} };
+
+int[][] test; 
+  test = new int[5][10];
+
+  int row = test.length;
+  int col = test[0].length;
+
+LikedList:
+
+You iterate through a linked list using an iterator
+LinkedList<String> cars = new LinkedList<String>();	
+addFirst()	Adds an item to the beginning of the list.	
+addLast()	Add an item to the end of the list	
+removeFirst()	Remove an item from the beginning of the list.	
+removeLast()	Remove an item from the end of the list	
+getFirst()	Get the item at the beginning of the list	
+getLast()	Get the item at the end of the list
+E peek()	It retrieves the first element of a list
+E peekFirst()	It retrieves the first element of a list or returns null if a list is empty.
+E peekLast()	It retrieves the last element of a list or returns null if a list is empty.
+E pop()	It pops an element from the stack represented by a list.
+void push(E e)	It pushes an element onto the stack represented by a list.
+E remove()	It is used to retrieve and removes the first element of a list.
+E remove(int index)	It is used to remove the element at the specified position in a list.
+int size()	It is used to return the number of elements in a list.
+hasNext()	Checks for next existing element
+
+
+Stack:
+Stack stk = new Stack();  
+Stack<type> stk = new Stack<>();  
+
+Method			Modifier and Type	Method Description
+empty()			boolean			The method checks the stack is empty or not.
+push(E item)		E			The method pushes (insert) an element onto the top of the stack.
+pop()			E			The method removes an element from the top of the stack and returns the same element as the value of that function.
+peek()			E			The method looks at the top element of the stack without removing it.
+search(Object o)	int			The method searches the specified object and returns the position of the object.
+
+Queue:
+Queue<Obj> queue = new PriorityQueue<Obj> (); 
+Queue queueA = new LinkedList();
+Queue queueB = new PriorityQueue();
+
+boolean add(object)	It is used to insert the specified element into this queue and return true upon success.
+boolean offer(object)	It is used to insert the specified element into this queue.
+Object remove()	It is used to retrieves and removes the head of this queue.
+Object poll()	It is used to retrieves and removes the head of this queue, or returns null if this queue is empty.
+Object element()	It is used to retrieves, but does not remove, the head of this queue.
+Object peek()	It is used to retrieves, but does not remove, the head of this queue, or returns null if this queue is empty.
+
+priority queues:
+
+
+Deque:
+http://tutorials.jenkov.com/java-collections/deque.html
+
+Binary Tree:
+https://medium.com/edureka/java-binary-tree-caede8dfada5
+
+Binary Search Tree:
+https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/
+
+Heap:
+https://www.geeksforgeeks.org/heap-data-structure/
+https://www.hackerearth.com/practice/data-structures/trees/heapspriority-queues/tutorial/
+
+Hashing:
+https://www.tutorialspoint.com/data_structures_algorithms/hash_data_structure.htm
+https://www.interviewcake.com/concept/java/hash-map
+
+Java: ArrayList vs Vectors:
+https://stackoverflow.com/questions/2986296/what-are-the-differences-between-arraylist-and-vector
+
+Java Regex Beginner Tutorial:
+https://www.youtube.com/watch?v=9RksQ5YT7FM&ab_channel=CrackConcepts
+
+
+YvrvJ2oN6N6YKDdeTXgce0tGa
+gwFrjnk3w6bKqESpyvRr0LqoUa9wJUrOmiSI7Cl0mKx5Rwq4fC
+
+
+
+
+
+
+
+
+
